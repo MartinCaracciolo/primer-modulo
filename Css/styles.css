@@ -1,0 +1,188 @@
+/* ---- ESTILOS GENERALES ---- */
+
+body {
+    color: #777;
+}
+
+.centrado {
+    text-align: center;
+}
+
+
+/* ---- ESTILOS HOJA PRINCIPAL ---- */
+
+header {
+    background: #1976D2;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+
+header a {
+    padding-right: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: medium;
+    text-transform: uppercase;
+}
+
+header i {
+    margin: 15px;
+}
+
+.splash {
+    width: 100%;
+    height: 100vh;
+    background: url(../Media/fondo.webp) center center;
+    background-size: cover;
+}
+
+.splash h1 {
+    margin-top: 10px;
+    background: #212121;
+    color: #ffffff;
+    font-size: 30px;
+    display: inline-block;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.text {
+    margin-top: 30vh;
+}
+
+.tarjetas {
+    padding-bottom: 30px;
+}
+.container {
+    display: flex;    
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.tarjetas h1 {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    color: #414141;
+}
+
+.children {
+    width: 300px;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #666;
+    border-width: thin;
+    margin: 8px;    
+    font-size: 13px;
+}
+
+.children h3 {
+    text-align: center;
+}
+
+.tarjetas .boton {
+    text-align: center;
+}
+
+.tarjetas img {
+    width: 100%;
+    height: 200px;
+}
+
+footer {
+    background-color: #1976D2;
+    height: 60px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #fafafa;
+    padding: 16px;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+/* ---- ESTILOS HOJA NOSOTROS ---- */
+
+.frase {
+    padding-bottom: 40px;
+    background: #f4f4f4
+}
+
+.frase h2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.firma {
+    background-color: #666;
+    color: #fafafa;
+    padding: 2px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.frase i {
+    color: #1976D2;
+}
+
+.descripcion {
+    color: #666;
+    background-image: url(../Media/fondo3.png);
+    background-size: cover;
+}
+
+.descripcion h1 {
+    color: #444;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.descripcion i {
+    color: #444;
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+.descripcion p {
+    margin-bottom: 60px;
+}
+
+.nosotros {
+    background: #f4f4f4;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.nosotros i{
+    font-size: 70px;
+    color: #1976D2;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+
+
+/* ---- ESTILOS HOJA CONTACTO ---- */
+
+.contactanos i {
+    font-size: 50px;
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+
+.formulario {
+    padding: 30px 0 30px 30px;
+}
+
+.mapa {
+    padding: 30px;
+}
